@@ -1,36 +1,6 @@
 import http from 'http'
 
 const port = 3000;
-// const resumeData = {
-//     contact: {
-//         "Name": "Kartheek Billa",
-//         "Email": "kartheekbilla147@gmail.com",
-//         "Phone": "9182844959",
-//         "GitHub": "github.com/in/kartheekbilla"
-//     },
-//     summary: "Web Developer with a background in developing high-quality websites and web applications. Skilled in HTML, CSS, JavaScript, and various frameworks.",
-//     education: {
-//         "Degree": "Bachelor of Science",
-//         "Major": "Computer Science",
-//         "Institution": "Sagi Rama Krishnam Raju Engineering College",
-//         "Location": "Andhra Pradesh, India",
-//         "Dates": "2023 - 2027"
-//     },
-//     skills: {
-//         "Programming Languages": "C, Java, Python",
-//         "Web Technologies": "HTML, CSS, JavaScript",
-//         "Frameworks": "React",
-//         "Server-Side": "Node.js, Express",
-//         "Database": "MongoDB"
-//     },
-//     hobbies: [
-//         "Coding and learning new technologies",
-//         "Reading tech blogs and articles",
-//         "Playing Badminton, Basketball",
-//         "Traveling and exploring new people and their culture"
-//     ]
-// };
-
 const server=http.createServer((req,res)=>{
     if (req.url === '/html') {
         res.statusCode = 200
