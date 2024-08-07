@@ -55,7 +55,7 @@ const server=http.createServer((req,res)=>{
 <body>
     <header>
         <h1>Kartheek Billa</h1>
-        <p>Web Developer</p>
+        <p>Student & Web Developer</p>
     </header>
     <section id="contact">
         <h2>Contact Me</h2>
@@ -68,7 +68,7 @@ const server=http.createServer((req,res)=>{
         <p>Web Developer with a background in developing high-quality websites and web applications. Skilled in HTML, CSS, JavaScript, and various frameworks.</p>
     <section id="education">
         <h2>Education</h2>
-        <p>Bachelor of Science in Computer Science</p>
+        <p>Bachelor Degree in Artificial Intelligence & Machine Learning</p>
         <p>Sagi Rama Krishnam Raju Engineering College</p>
         <p>2023 - 2027</p>
     </section>
